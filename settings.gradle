@@ -3,3 +3,10 @@ plugins {
 }
 
 rootProject.name = 'shadow'
+
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
