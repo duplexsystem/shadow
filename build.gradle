@@ -84,12 +84,12 @@ shadowJar {
 
 idea {
     project {
-        languageLevel = '1.8'
+        languageLevel = '18'
     }
 }
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+sourceCompatibility = '18'
+targetCompatibility = '18'
 
 task downloadDependencies(type: Exec) {
     dependsOn configurations.testRuntimeClasspath
